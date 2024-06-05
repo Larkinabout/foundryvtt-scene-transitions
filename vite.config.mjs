@@ -95,7 +95,7 @@ export default () => {
     
     build: {
       outDir: normalizePath( path.resolve(__dirname, `./dist/${s_MODULE_ID}`)), // __dirname,
-      emptyOutDir: false,
+      emptyOutDir: true,
       sourcemap: s_SOURCEMAPS,
       brotliSize: true,
       minify: s_COMPRESS ? "terser" : false,

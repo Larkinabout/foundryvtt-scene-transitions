@@ -72,7 +72,7 @@ game.modules.get('scene-transitions').api.macro({
 	sceneID: false, // To play a transition without a scene activation, simple pass `false` as the sceneID in the data object or use the string id of the scene.
 	content:"TEST MACRO",
 	fontColor:'#ffffff',
-	fontSize:'28px',
+	fontSize: 28,
 	bgImg:'', // pass any relative or absolute image or video url here.
 	bgPos:'center center',
     bgLoop: true, // Only for VIDEO, if true will loop the video
@@ -84,7 +84,7 @@ game.modules.get('scene-transitions').api.macro({
 	delay:5000, //how long for transition to stay up
 	fadeOut: 400, //how long to fade out
 	audio: "", //path to audio file, NOTE: is not advisable to use this with a video and the property 'bgMuted = false'
-	skippable:true, //Allows players to skip transition with a click before delay runs out.
+	allowPlayersToEnd:true, //Allows players to skip transition with a click before delay runs out.
     audioLoop: true, //Loop the audio file ?
 	gmHide: true, // hide the transition on other windows logged in as a GM
 	gmEndAll: true, // when the GM clicks to end the transition - end for everyone
