@@ -278,7 +278,7 @@ export class SceneTransition {
     if (!closeButton) return;
 
     const onClick = () => {
-      if (this.options.gmEndAll) {
+      if (game.user.isGM && this.options.gmEndAll) {
         let options = new SceneTransitionOptions({ action: "end" });
         options.fromSocket = true;
 

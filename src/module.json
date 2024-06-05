@@ -81,13 +81,13 @@
   "styles": ["styles/scene-transitions.css"],
   "compatibility": {
     "minimum": 11,
-    "verified": 11,
+    "verified": 12.325,
     "maximum": 12
   },
   "manifestPlusVersion": "1.2.1",
-  "url": "https://github.com/p4535992/foundryvtt-scene-transitions",
-  "manifest": "https://github.com/p4535992/foundryvtt-scene-transitions/releases/download/0.5.2/module.json",
-  "download": "https://github.com/p4535992/foundryvtt-scene-transitions/releases/download/0.5.2/module.zip",
+  "url": "This is replaced",
+  "manifest": "This is replaced",
+  "download": "This is replaced",
   "readme": "https://github.com/p4535992/foundryvtt-scene-transitions/blob/master/README.md",
   "changelog": "https://github.com/p4535992/foundryvtt-scene-transitions/blob/master/CHANGELOG.md",
   "bugs": "https://github.com/p4535992/foundryvtt-scene-transitions/issues",
